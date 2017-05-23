@@ -5,7 +5,7 @@
 ** Login   <renaud_e@epitech.net>
 ** 
 ** Started on  Mon Nov  7 15:19:03 2016 Antoine Renaud
-** Last update Mon May  8 18:19:44 2017 Antoine Renaud
+** Last update Tue May 23 04:39:42 2017 Antoine Renaud
 */
 
 #include <stdlib.h>
@@ -61,6 +61,7 @@ char		*my_putnbr_hexa_r(va_list vl)
       i = i / 16;
       a++;
     }
+  str[a] = '\0';
   return (my_revstr(str));
 }
 
@@ -82,6 +83,7 @@ char		*my_putnbr_octa_r(va_list vl)
       i = i / 8;
       a++;
     }
+  str[a] = '\0';
   return (my_revstr(str));
 }
 
@@ -105,6 +107,7 @@ char		*my_putnbr_hexam_r(va_list vl)
       i = i / 16;
       a++;
     }
+  str[a] = '\0';
   return (my_revstr(str));
 }
 
@@ -126,5 +129,6 @@ char		*my_putnbr_bina_r(va_list vl)
       i = i / 2;
       a++;
     }
+  str[a] = '\0';
   return (my_revstr(str));
 }

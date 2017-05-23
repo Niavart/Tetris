@@ -5,7 +5,7 @@
 ** Login   <renaud_e@epitech.net>
 ** 
 ** Started on  Wed Feb  1 12:50:56 2017 Antoine Renaud
-** Last update Mon May  8 13:59:38 2017 Antoine Renaud
+** Last update Tue May 23 04:44:26 2017 Antoine Renaud
 */
 
 #include <stdlib.h>
@@ -22,6 +22,7 @@ char	*leplus(char *s, int nb, char c)
   if ((tmp = malloc(sizeof(s))) == NULL)
     return (NULL);
   tmp[0] = '+';
+  tmp[1] = '\0';
   if (s && s[0] != '-')
     s = my_strcat(tmp, s);
   return (s);
