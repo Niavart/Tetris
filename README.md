@@ -1,7 +1,8 @@
 # Tetris
 
-This project use the ncurses library
-run 'make' inside the repository then './tetris'
+This project use the ncurses library.
+
+run 'make' inside the repository then './tetris'.
 
 You can modify most keys by running './tetris -d [options]'.
 You can display those options by running the './tetris --help' command.
