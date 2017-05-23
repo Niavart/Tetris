@@ -1,0 +1,6 @@
+*.a
+tetris
+*.o
+*~
+#*#
+*.tetriminos
